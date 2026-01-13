@@ -78,7 +78,7 @@ nav .menu a{
     color: black;
 }
 
-#banner{
+#banner,#second-brain{
     padding-top: 120px;
 }
 
@@ -120,3 +120,56 @@ nav .menu a{
     margin: 32px 16px 179px 0px;
 }
 
+#second-brain{
+    padding-bottom: 120px;
+}
+
+.second-brain-content{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.knowledge-content{
+    margin: 101.5px 0px 101.5px 60px;
+    text-align: left;
+}
+
+.knowledge-content h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+
+.knowledge-content h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+
+.space{
+    padding-bottom: 16px;
+}
+
+.knowledge-content h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+}
+
+.personal-knowledge{
+    padding-top: 40px;
+}
+
+.personal-knowledge img{
+    margin-bottom: -4px;
+}
+.personal-knowledge p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
