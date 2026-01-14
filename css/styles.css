@@ -120,6 +120,63 @@ nav .menu a{
     margin: 32px 16px 179px 0px;
 }
 
+.notes-heading h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+
+.notes-heading p{
+    padding: 16px 0px 44px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+}
+
+.notes-box{
+    display: flex;
+    gap: 24px;
+}
+
+.notes-card{
+    padding: 24px;
+    box-shadow: 0 8px 50px 0 #00000011;
+    border-radius: 5px;
+    max-width: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.notes-card i{
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    font-size: 32px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes-card h4{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+
+.notes-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+}
+
 #second-brain,#early-access{
     padding-bottom: 120px;
 }
