@@ -75,7 +75,7 @@ nav .menu a{
     background-color: transparent;
     border: 2px solid black;
     border-radius: 5px;
-    color: black;
+    color: #001931;
 }
 
 #banner,#second-brain{
@@ -120,7 +120,7 @@ nav .menu a{
     margin: 32px 16px 179px 0px;
 }
 
-#second-brain{
+#second-brain,#early-access{
     padding-bottom: 120px;
 }
 
@@ -172,4 +172,36 @@ nav .menu a{
     color: #001931;
     line-height: 20px;
     margin-bottom: 16px;
+}
+
+.early-access-content{
+    background-color: #F7F6F2;
+}
+
+.early-access-title{
+    padding-top: 80px;
+    padding-bottom: 24px;
+}
+
+.early-access-title h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+.early-access-title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+}
+
+.early-access-button p{
+    padding-top: 16px;
+    padding-bottom: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
 }
